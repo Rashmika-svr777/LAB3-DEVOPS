@@ -19,13 +19,13 @@ function validateForm() {
 
     // First Name
     if (firstname === "") {
-        document.getElementById("firstnameError").innerText = "First name is required";
+        document.getElementById("firstnameError").innerText = "First name is requiredd";
         isValid = false;
     }
 
     // Last Name
     if (lastname === "") {
-        document.getElementById("lastnameError").innerText = "Last name is required";
+        document.getElementById("lastnameError").innerText = "Last name is requiredd";
         isValid = false;
     }
 
